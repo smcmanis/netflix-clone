@@ -13,6 +13,11 @@ export default function Home() {
     >
       <Head>
         <title>Netflix Clone</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+          rel="stylesheet"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -49,7 +54,7 @@ export default function Home() {
       </header>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-5xl font-bold text-white max-w-md">
+        <h1 className="text-5xl font-bold text-white max-w-lg tracking-wide">
           Unlimited movies, TV shows and more.
         </h1>
         <h2 className="text-2xl text-white mt-4 mb-8">
